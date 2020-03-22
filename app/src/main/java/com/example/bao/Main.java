@@ -10,7 +10,7 @@ import android.widget.ImageButton;
 
 public class Main extends AppCompatActivity {
 
-    Button bt1, bt2, bt3, bt4, bt5, bt6;
+    ImageButton bt1, bt2, bt3, bt4, bt5, bt6;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

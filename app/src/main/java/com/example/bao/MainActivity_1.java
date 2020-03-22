@@ -36,7 +36,7 @@ public class MainActivity_1 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         listView = findViewById(R.id.listview);
-        buthome = findViewById(R.id.buthome);
+       // buthome = findViewById(R.id.buthome);
         mangdocbao = new ArrayList<Docbao>();
         runOnUiThread(new Runnable() {
             @Override

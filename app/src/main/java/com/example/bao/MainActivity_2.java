@@ -36,7 +36,7 @@ public class MainActivity_2 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         listView = findViewById(R.id.listview);
-        buthome = findViewById(R.id.buthome);
+
         mangdocbao = new ArrayList<Docbao>();
         runOnUiThread(new Runnable() {
             @Override
@@ -52,13 +52,7 @@ public class MainActivity_2 extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-        buthome.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                openActivity0();
 
-            }
-        });
     }
     public void openActivity0()
     {

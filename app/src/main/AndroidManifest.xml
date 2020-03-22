@@ -11,8 +11,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity5_5"></activity>
-        <activity android:name=".MainActivity_5" />
+        <activity android:name=".Modau">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity5_5" />
+        <activity android:name=".MainActivity_5">
+
+        </activity>
         <activity android:name=".MainActivity4_4" />
         <activity android:name=".MainActivity_4" />
         <activity android:name=".MainActivity3_3" />
@@ -23,11 +32,7 @@
         <activity android:name=".MainActivity1_1" />
         <activity android:name=".MainActivity_1" />
         <activity android:name=".Main">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity android:name=".Main2Activity" />
         <activity android:name=".MainActivity" />
